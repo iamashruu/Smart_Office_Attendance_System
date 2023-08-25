@@ -15,7 +15,7 @@ It allows employees to mark their attendance using QR codes, provides administra
 
 ## Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
+- Frontend: HTML, CSS, JavaScript,Instascan.js
 - Backend: Node.js, Express.js
 - Database: PostgreSQL
 - QR Code Generation: QRCode.js
@@ -33,7 +33,9 @@ It allows employees to mark their attendance using QR codes, provides administra
 
 ## Contributing
 
-Contributions are welcome! To contribute to this project, follow these steps:
+Contributions are welcome! 
+Feel free to open issues or submit pull requests for new features, bug fixes, or improvements.
+To contribute to this project, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/your-feature-name`
