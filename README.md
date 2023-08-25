@@ -37,11 +37,20 @@ It allows employees to mark their attendance using QR codes, provides administra
 1. Clone the repository: `git clone https://github.com/yourusername/smart-office-attendance-system.git`
 2. Install dependencies: `cd attendanceBackEnd`
                          `npm install`
-4. Set up your PostgreSQL database and configure `server.js` in attendanceBackEnd.
+3. import attendanceSystem.sql in postgresql database.
+4.  Set up your PostgreSQL database and configure `server.js` in attendanceBackEnd.
 5. Run the server: `npm start`
 6. Access the application in your browser at `http://localhost:3001`
 7. Open live server for attendanceFrontEnd
 8. index.html for employees attendance and login.html for admin dashboard.
+9. Generate Employe id card into json formate then convert into qrcode. Like this:
+
+                              {
+                                "ID": "10",
+                                "Name": "Ashraf",
+                                "Phone": "018111111"
+                              }
+You can generate qrcode from our dashboard or online too such as https://www.the-qrcode-generator.com
 
 ## Contributing
 
