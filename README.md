@@ -24,11 +24,12 @@ It allows employees to mark their attendance using QR codes, provides administra
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/yourusername/smart-office-attendance-system.git`
-2. Install dependencies: `npm install`
-3. Set up your PostgreSQL database and configure `server.js` in attendanceBackEnd.
-4. Run the server: `npm start`
-5. Access the application in your browser at `http://localhost:3001`
-6. Open live server for attendanceFrontEnd 
+2. Install dependencies: `cd attendanceBackEnd`
+                         `npm install`
+4. Set up your PostgreSQL database and configure `server.js` in attendanceBackEnd.
+5. Run the server: `npm start`
+6. Access the application in your browser at `http://localhost:3001`
+7. Open live server for attendanceFrontEnd 
 
 ## Contributing
 
