@@ -13,16 +13,16 @@ It allows employees to mark their attendance using QR codes, provides administra
 
 ## Screenshots
 
-![Login Page](/login-page-v1.0.png)
-![Admin Dashboard](/adminDash.png)
-![Scan](/scanv1.0.png)
-![Attendance](/attendance.png)
-![Present Result](/presentResult-v1.0.png)
-![Employee Add](/emoloyeeAdd.png)
-![Employee Management](/employeeManage.png)
-![Generate QR](/generateQR.png)
-![Add Leave](/addLeave.png)
-![Show Leave](/showLeave.png)
+![Login Page](/results/login-page-v1.0.png)
+![Admin Dashboard](/results/adminDash.png)
+![Scan](/results/scanv1.0.png)
+![Attendance](/results/attendance.png)
+![Present Result](/results/presentResult-v1.0.png)
+![Employee Add](/results/emoloyeeAdd.png)
+![Employee Management](/results/employeeManage.png)
+![Generate QR](/results/generateQR.png)
+![Add Leave](/results/addLeave.png)
+![Show Leave](/results/showLeave.png)
 
 ## Technologies Used
 
