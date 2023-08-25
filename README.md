@@ -3,8 +3,6 @@
 Smart Office Attendance System is a web application designed to streamline attendance management in offices. 
 It allows employees to mark their attendance using QR codes, provides administrators with tools to manage employee records, generate attendance reports, and more.
 
-![Smart Office Attendance System]()
-
 ## Features
 
 - Employee Registration: Register new employees with their details.
@@ -12,6 +10,19 @@ It allows employees to mark their attendance using QR codes, provides administra
 - Dashboard: Admin dashboard for managing employee records and attendance.
 - Reports: Generate daily, weekly, and monthly attendance reports.
 - Leave Management: Add and manage employee leave requests.
+
+## Screenshots
+
+![Login Page](/login-page-v1.0.png)
+![Admin Dashboard](/adminDash.png)
+![Scan](/scanv1.0.png)
+![Attendance](/attendance.png)
+![Present Result](/presentResult-v1.0.png)
+![Employee Add](/emoloyeeAdd.png)
+![Employee Management](/employeeManage.png)
+![Generate QR](/generateQR.png)
+![Add Leave](/addLeave.png)
+![Show Leave](/showLeave.png)
 
 ## Technologies Used
 
@@ -29,7 +40,8 @@ It allows employees to mark their attendance using QR codes, provides administra
 4. Set up your PostgreSQL database and configure `server.js` in attendanceBackEnd.
 5. Run the server: `npm start`
 6. Access the application in your browser at `http://localhost:3001`
-7. Open live server for attendanceFrontEnd 
+7. Open live server for attendanceFrontEnd
+8. index.html for employees attendance and login.html for admin dashboard.
 
 ## Contributing
 
@@ -49,4 +61,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 This project was inspired by the need for a simple and efficient office attendance management system. Special thanks to the open-source community and various libraries used in this project.
+
+#Thank You.............
 
