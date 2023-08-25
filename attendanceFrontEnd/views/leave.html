@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Management</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/attendance.css">
+</head>
+
+<body>
+    <!-- Preloader element -->
+    <div class="preloader">
+        <div class="preloader__spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="logout">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="../login.html">Home</a></li>
+                <li><a class="menu__item" href="../views/employee.html">Employee</a></li>
+                <li><a class="menu__item" href="../views/attendance.html">Attendance</a></li>
+                <li><a class="menu__item" href="../views/reports.html">Reports</a></li>
+                <li><a class="menu__item" href="../views/qrcode.html">Get QR Code</a></li>
+                <li><a class="menu__item" href="#">Leave</a></li>
+            </ul>
+        </div>
+        <h1>Leave Management</h1>
+
+        <a class="button" id="logoutBtn" href="">
+            <img src="../img/logout-icon.jpg">
+            <div class="logout_btn">LOGOUT</div>
+        </a>
+    </div>
+
+    <!--Trigger-->
+
+    <div class="formContainer" style="margin-top: -10vh;">
+        <form id="addLeave">
+            <p class="alertAddLeave"></p>
+            <label for="id">Employee ID:</label>
+            <input type="text" id="id" name="id">
+            <!-- <label for="leaveType">Leave Type:</label>
+            <input type="text" id="leaveType" name="leaveType"> -->
+
+            <label for="leaveType">Leave Type:</label>
+            <select id="leaveType" name="leaveType">
+                <option value="Casual Leave">Casual Leave</option>
+                <option value="Medical Leave">Medical Leave</option>
+                <option value="Maternity Leave">Maternity Leave</option>
+                <option value="Paternity Leave">Paternity Leave</option>
+                <option value="Annual Leave">Annual Leave</option>
+                <option value="Others">Others</option>
+            </select>
+            <br><br>
+            <label for="leaveDescription">Leave Description:</label>
+            <input type="text" id="leaveDescription" name="leaveDescription">
+            <!-- <label for="leave_date">Date:</label>
+            <input type="date" id="leave_date" name="leave_date"> -->
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate">
+            
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate">
+
+            <button type="submit">Add Leave</button>
+        </form>
+    </div>
+
+ 
+    <!--Start Overall Present Lists -->
+    <section style="margin-bottom: 22vh;" class="leaveList">
+        <h1 class="title">All Leave List</h1>
+        <!-- <button class="open-button">Add Leave</button> -->
+        <div class="tbl-header">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Sector</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Days <i class="gg-printer" style="margin-left: auto; margin-top: -1.1rem; cursor: pointer;"></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody class="overall">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- End Overall Present Lists -->
+
+    <script type="module" src="../js/leave.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+
+.reports-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.report-section {
+    margin: 4rem 1rem 0.2rem 1rem;
+    padding: 20px;
+    background-color: #3dc5a3;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 100px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* label {
+    font-size: 18px;
+    margin-right: 10px;
+} */
+
+input[type="date"],
+input[type="week"],
+input[type="month"] {
+    height: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+}
+
+button {
+    height: 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#dailyResults,
+#weeklyResults,
+#monthlyResults {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#dailyResults table,
+#weeklyResults table,
+#monthlyResults table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+#dailyResults th,
+#weeklyResults th,
+#monthlyResults th {
+    background-color: #eee;
+    text-align: left;
+    padding: 10px;
+}
+
+#dailyResults td,
+#weeklyResults td,
+#monthlyResults td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#dailyResults td.date,
+#weeklyResults td.date,
+#monthlyResults td.date {
+    font-weight: bold;
+}

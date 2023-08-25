@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../css/getqrcode.css">
+
+</head>
+
+<body>
+    <!-- Preloader element -->
+    <div class="preloader">
+        <div class="preloader__spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="logout">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+    
+            <ul class="menu__box">
+                <li><a class="menu__item" href="../login.html">Home</a></li>
+                <li><a class="menu__item" href="../views/employee.html">Employee</a></li>
+                <li><a class="menu__item" href="../views/attendance.html">Attendance</a></li>
+                <li><a class="menu__item" href="../views/reports.html">Reports</a></li>
+                <!-- <li><a class="menu__item" href="#">Setting</a></li> -->
+                <li><a class="menu__item" href="../views/leave.html">Leave</a></li>
+            </ul>
+        </div>
+        <h1>QR Code Generator</h1>
+    
+        <!-- <button class="logout_btn">Log out</button> -->
+        <a class="button" id="logoutBtn" href="">
+            <img src="../img/logout-icon.jpg">
+            <!-- <img src="./img/profile-logout.png"> -->
+            <div class="logout_btn">LOGOUT</div>
+    
+        </a>
+    </div>
+    <div class="qrform">
+        
+        <form class="qrbox">
+            <input type="text" id="id" name="id" placeholder="Enter ID Number" required />
+            <button type="button" class="generateQR">Generate</button>
+        </form>
+        <p class="qrAlert"></p>
+        <div id="qrcode-container">
+            <div id="qrcode" class="qrcode"></div>
+            
+            <a href="#" download="qrcode.png" id="downloadLink"><button type="button">Download QR Code</button></a>
+        </div>
+    </div>
+    <script src="../js/qrcode.min.js.download"></script>
+    <!-- <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script> -->
+    <script type="module" src="../js/getqrcode.js"></script>
+        
+</body>
+
+</html>
