@@ -3,6 +3,11 @@
 Smart Office Attendance System is a web application designed to streamline attendance management in offices. 
 It allows employees to mark their attendance using QR codes, provides administrators with tools to manage employee records, generate attendance reports, and more.
 
+## How To Give Attendance?
+When an employee enters the office, they must scan their ID card .
+The system records their entry time. To leave the office, the employee must scan again to confirm their exit. 
+This two-step process prevents attendance from being counted without both entry and exit scans, ensuring accurate tracking.
+
 ## Features
 
 - Employee Registration: Register new employees with their details.
